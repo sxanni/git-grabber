@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API ICHI</title>
+    <link rel="stylesheet" href="css/style.css">
+<link 
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+rel="stylesheet" 
+integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+crossorigin="anonymous"/>
+
+
+</head>
+<body>
+    <section class="mainSection">
+
+        <h3 class="text-center mt-5"> GITHUB API USERNAME GRABBER</h3>
+        <form id="gitHubForm" class="form-inline mx-auto" action="mailto:opeyemisanni65@gmail.com" method="post" enctype="text/plain">
+
+            <!-- <input type="hidden" name="_subject" value="Coding Interview: Post method Submit by Sanni Opeyemi"> -->
+            <input type="text" name="YourName" id="yourNameInput" class="form-control mb-5" placeholder="Researcher's name">
+            <input type="email" name="YourEmail" id="yourMailInput" class="form-control mb-5" placeholder="Researcher's email">
+            <input type="text" name="GitUser" id="usernameInput" class="form-control mb-5" placeholder="Git Hub username">
+            <button type="submit" class="btn btn-dark mb-5">Submit</button>
+        </form>
+        
+        <!-- list to hold repos -->
+        <ul id="userRepos"> 
+            
+        </ul>
+    </section>
+    
+    
+    <script src="js/script.js" ></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+*{
+
+    align-content: center;
+    text-align: center;
+}
+
+body{
+}
+
+.mainSection{
+    justify-content: center;
+    padding-top: 20px;
+    background-image:url("img/grab.gif");
+}
+form{
+    margin: auto; 
+    align-self: center;
+width: 50%;
+}
+.btn{
+    color: black;
+}
+.text-center{
+    margin-bottom: 35px;
+    color: red;
+}
